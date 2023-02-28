@@ -31,7 +31,7 @@ color: var(--color-primary)
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
-    color: var(--section-title-color);
+    color: --section-title-color;
 }
 .section-tagline {
 color: var(--color-primary);
@@ -63,7 +63,7 @@ font-weight: var(--font-weight-bold);
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
-    --section-title-color: --color-black;
+    --section-title-color: var(--color-black);
 
 
 
