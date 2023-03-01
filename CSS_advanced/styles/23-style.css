@@ -194,6 +194,10 @@ ul.row {
     
 }
 
+.social-link > svg {
+    fill: var(--text-color);
+}
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
